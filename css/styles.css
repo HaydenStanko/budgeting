@@ -1,6 +1,8 @@
 body {
     background-image: url(../img/black.jpg);
+    background-size: 100px;
     /*    text-align: center;*/
+    padding: 0px;
 }
 
 div {
@@ -8,7 +10,7 @@ div {
 }
 
 #top-banner {
-    background: rgba(23, 171, 92, 0.93);
+    background: rgba(23, 171, 92, 0.95);
 }
 
 #title h1 {
@@ -16,21 +18,27 @@ div {
     font-size: 2em;
 }
 
+#summary {
+	height: 300px;
+	background-color: #d1f0f9;
+	margin: 0px;
+}
+
 .parse-display {
-    margin: 20px;
+    margin: 0px;
     height: 300px;
 }
 
 #costs {
-    border: 3px solid red;
-    border-radius: 3px;
-    background-color: darkred;
+/*     border: 3px solid red; */
+/*     border-radius: 3px; */
+    background-color: rgba(253, 230, 230, 1);
 }
 
 #income {
     /*    float: right;*/
     
-    border: 3px solid green;
-    border-radius: 3px;
-    background-color: darkgreen;
+/*     border: 3px solid green; */
+/*     border-radius: 3px; */
+    background-color: #e0fae0;
 }
