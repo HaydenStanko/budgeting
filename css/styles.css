@@ -1,40 +1,36 @@
 body {
-    background: #eee;
-    text-align: center;
-    padding: 0 25px;
+    background-image: url(../img/black.jpg);
+    /*    text-align: center;*/
 }
 
-#main {
-    width: 500px;
-    margin: auto;
-    text-align: left;
-    background: white;
-    padding: 50px 60px;
-    border: solid #ddd;
-    border-width: 0 1px 1px 1px;
+div {
+    /*    border: 1px solid red;*/
 }
 
-#main h1 {
-    margin-top: 0;
-    font-size: 35px;
+#top-banner {
+    background: rgba(23, 171, 92, 0.93);
 }
 
-#main ul {
-    padding-left: 20px;
+#title h1 {
+    color: black;
+    font-size: 2em;
 }
 
-#main .error {
-    border: 1px solid red;
-    background: #FDEFF0;
-    padding: 20px;
+.parse-display {
+    margin: 20px;
+    height: 300px;
 }
 
-#main .success {
-    margin-top: 25px;
+#costs {
+    border: 3px solid red;
+    border-radius: 3px;
+    background-color: darkred;
 }
 
-#main .success code {
-    font-size: 12px;
-    color: green;
-    line-height: 13px;
+#income {
+    /*    float: right;*/
+    
+    border: 3px solid green;
+    border-radius: 3px;
+    background-color: darkgreen;
 }
