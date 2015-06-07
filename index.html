@@ -22,12 +22,11 @@
 </head>
 
 <body>
-    <div class="container-fluid" id="top-banner">
-        <!--            <div class="col-md-12">-->
-        <div id="title" class="col-md-3">
+    <div class="container-fluid green-banner" id="top-banner">
+        <div id="title" class="col-md-5">
             <h1>The Budgetmaster</h1>
         </div>
-        <div id="menu" class="col-md-9">
+        <div id="menu" class="col-md-7 pull-right">
             <ul id="menu-list">
                 <li>
 
@@ -36,24 +35,29 @@
             <!--                </div>-->
         </div>
     </div>
-
-	<div class="container col-md-6 col-sm-12">
-		<div class="row">
-			<div class="col-md-6 col-sm-12" id="summary">
+	
+	<div class="container" id="main-content">
+		<div class="container col-lg-6 col-md-6 col-sm-12 pull-right">
+			<div class="row">
+				<div id="summary" class="parse-display">
+					<h2 class="blue-banner section-header">Financial Summary</h2>
+				</div>
 			</div>
 		</div>
+	
+	    <div class="container col-md-6 col-sm-12">
+	        <div class="row">
+	            <div class="parse-display" id="costs">
+		            <h2 class="red-banner section-header">Costs</h2>
+	            </div>
+	        </div>
+	        <div class="row">
+	            <div class="parse-display" id="income">
+		            <h2 class="light-green-banner section-header">Income</h2>
+	            </div>
+	        </div>
+	    </div>
 	</div>
-
-    <div class="container col-md-6 col-sm-12">
-        <div class="row">
-            <div class="col-md-6 col-sm-12 parse-display" id="costs">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6 col-sm-12 parse-display" id="income">
-            </div>
-        </div>
-    </div>
 </body>
 
 </html>
