@@ -1,0 +1,22 @@
+{
+  "name": "budget-app",
+  "version": "1.0.0",
+  "description": "A small app to track personal finances",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HaydenStanko/budgeting.git"
+  },
+  "author": "Hayden Stanko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HaydenStanko/budgeting/issues"
+  },
+  "homepage": "https://github.com/HaydenStanko/budgeting#readme",
+  "dependencies": {
+    "express": "^4.12.4"
+  }
+}

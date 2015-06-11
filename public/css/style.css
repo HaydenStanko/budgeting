@@ -1,0 +1,158 @@
+body {
+    background-image: url(../img/blue.jpg);
+    background-size: 200px;
+    background-attachment: fixed;
+    /*    text-align: center;*/
+    padding: 0px;
+    font-family: Helvetica;
+}
+
+nav.navbar-default.navbar-fixed-top {
+	border: 0px;
+}
+
+a:focus {
+	outline: none;
+}
+
+#contents {
+	overflow-x: scroll;
+}
+
+div {
+/*        border: 1px solid red; */
+}
+
+#title {
+/* 	text-align: center; */
+}
+
+#title h1 {
+    color: /* black */;
+    margin: 5px 20px;
+/*     text-align: left; */
+/*     font-size: 2.3em; */
+/*     text-shadow: 1px 1px 1px black; */
+}
+
+.green-banner {
+	background: rgb(17, 84, 14);
+	color: white;
+}
+
+.navbar-default button.navbar-toggle {
+	background-color: white;
+}
+
+.navbar-default .navbar-brand {
+	font-size: 2em;
+	color: white;
+}
+
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav .open .dropdown-menu>li>a{
+	color: white;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu {
+	background-color: rgb(17, 84, 14);
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+	color: white;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-brand:focus, 
+.navbar-default .navbar-nav .open .dropdown-menu>li>a, navbar-nav>li>li>a:focus,{
+	color: white;
+	border: none;
+}
+
+.navbar-default .navbar-nav>li>a:active,
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-brand:hover,
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:active{
+	background-color: rgba(255,255,255,.90);
+	color: rgb(17, 84, 14);
+}
+
+
+#menu-list {
+	list-style-image: none;
+	
+}
+
+#top-banner {
+	padding: 10px;
+	z-index: 100;
+	position: fixed;
+	top:0;
+	left: 0;
+	width: 100%;
+    margin-bottom: 15px;
+}
+
+#main-content {
+	margin-top: 80px;
+}
+
+h2.section-header {
+	font-weight: normal;
+	margin-top: 0px;
+	padding: 5px 20px;
+	color: white;
+/* 	text-shadow: 1px 1px 1px black; */
+}
+
+.parse-display {
+	overflow: hidden;
+    margin: 5px;
+    height: 300px;
+}
+
+#summary {
+	overflow: hidden;
+	height: 610px;
+	background-color: #ffffff;
+	margin: 5px;
+	border: 3px solid #53a9ad;
+}
+
+#costs {
+    border: 3px solid #c17474;
+/*     border-radius: 3px; */
+    background-color: rgba(255, 255, 255, 1);
+}
+
+#income {
+    /*    float: right;*/
+    
+    border: 3px solid #88c373;
+/*     border-radius: 3px; */
+    background-color: #ffffff;
+}
+
+.blue-banner {
+	background-color: #62c5cb;
+}
+
+.light-green-banner {
+	background-color: #aaee92
+}
+.red-banner {
+	background-color: #e79292
+}
+
+.nav-pills li a {
+	color: white;
+	
+}
+
+#main-menu.nav-pills li.active a{
+	background-color: rgba(31, 130, 25, 1);
+	color: white;
+}
+
+#main-menu.nav-pills li a:hover {
+	background-color: #14c641;
+	
+}
